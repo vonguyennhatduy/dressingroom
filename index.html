@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CyberLearn Dressing Room</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="text-center">
+              <img src="./../assets/images/cybersoft.png" alt="Card image" />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+                - Virtual Dressing Room
+              </h4>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item mr-4" role="presentation">
+              <button class="nav-link active" id="pills-shirts-tab" data-bs-toggle="pill" data-bs-target="#pills-shirts" type="button" role="tab" aria-controls="pills-shirts" aria-selected="true" onclick="openTab('pills-shirts')">Áo</button>
+            </li>
+            <li class="nav-item mr-4" role="presentation">
+              <button class="nav-link" id="pills-pants-tab" data-bs-toggle="pill" data-bs-target="#pills-pants" type="button" role="tab" aria-controls="pills-pants" aria-selected="false" onclick="openTab('pills-pants')">Quần</button>
+            </li>
+            <li class="nav-item mr-4" role="presentation">
+              <button class="nav-link" id="pills-shoe-tab" data-bs-toggle="pill" data-bs-target="#pills-shoe" type="button" role="tab" aria-controls="pills-shoe" aria-selected="false" onclick="openTab('pills-shoe')">Giày dép</button>
+            </li>
+            <li class="nav-item mr-4" role="presentation">
+              <button class="nav-link" id="pills-jewelry-tab" data-bs-toggle="pill" data-bs-target="#pills-jewelry" type="button" role="tab" aria-controls="pills-jewelry" aria-selected="false" onclick="openTab('pills-jewelry')">Dây chuyền</button>
+            </li>
+            <li class="nav-item mr-4" role="presentation">
+              <button class="nav-link" id="pills-bags-tab" data-bs-toggle="pill" data-bs-target="#pills-bags" type="button" role="tab" aria-controls="pills-bags" aria-selected="false" onclick="openTab('pills-bags')">Túi xách</button>
+            </li>
+            <li class="nav-item mr-4" role="presentation">
+              <button class="nav-link" id="pills-hair-tab" data-bs-toggle="pill" data-bs-target="#pills-hair" type="button" role="tab" aria-controls="pills-hair" aria-selected="false" onclick="openTab('pills-hair')">Kiểu tóc</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-background-tab" data-bs-toggle="pill" data-bs-target="#pills-background" type="button" role="tab" aria-controls="pills-background" aria-selected="false" onclick="openTab('pills-background')">Nền</button>
+            </li>
+          </ul>
+          
+          <div class="well">
+            <!-- Tab panes -->
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-shirts" role="tabpanel" aria-labelledby="pills-shirts-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card">
+                        <img class="TRY1" src="../assets/images/clothes/topcloth1_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Top Cloth 1</p>
+                        <button class="btn btn-info" id="1" onclick="Top('1')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img class="TRY1" src="../assets/images/clothes/topcloth2_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Top Cloth 2</p>
+                        <button class="btn btn-info" id="2" onclick="Top('2')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img class="TRY1" src="../assets/images/clothes/topcloth3_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Top Cloth 3</p>
+                        <button class="btn btn-info" id="3" onclick="Top('3')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img class="TRY1" src="../assets/images/clothes/topcloth4_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Top Cloth 4</p>
+                        <button class="btn btn-info" id="4" onclick="Top('4')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img class="TRY1" src="../assets/images/clothes/topcloth5_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Top Cloth 5</p>
+                        <button class="btn btn-info" id="5" onclick="Top('5')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img class="TRY1" src="../assets/images/clothes/topcloth6_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Top Cloth 6</p>
+                        <button class="btn btn-info" id="6" onclick="Top('6')">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-pants" role="tabpanel" aria-labelledby="pills-pants-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/clothes/botcloth1_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Bot Cloth 1</p>
+                        <button class="btn btn-info" onclick="Bottom('1')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/clothes/botcloth2_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Bot Cloth 2</p>
+                        <button class="btn btn-info"  onclick="Bottom('2')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/clothes/botcloth3_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Bot Cloth 3</p>
+                        <button class="btn btn-info"  onclick="Bottom('3')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/clothes/botcloth4_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Bot Cloth 4</p>
+                        <button class="btn btn-info"  onclick="Bottom('4')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/clothes/botcloth5_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Bot Cloth 5</p>
+                        <button class="btn btn-info"  onclick="Bottom('5')">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-shoe" role="tabpanel" aria-labelledby="pills-shoe-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/shoes/shoes1_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Shoe 1</p>
+                        <button class="btn btn-info" onclick="SHOE('1')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/shoes/shoes2_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Shoe 2</p>
+                        <button class="btn btn-info"  onclick="SHOE('2')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/shoes/shoes3_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Shoe 3</p>
+                        <button class="btn btn-info"  onclick="SHOE('3')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/shoes/shoes4_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Shoe 4</p>
+                        <button class="btn btn-info"  onclick="SHOE('4')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/shoes/shoes5_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Shoe 5</p>
+                        <button class="btn btn-info"  onclick="SHOE('5')">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-jewelry" role="tabpanel" aria-labelledby="pills-jewelry-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/necklaces/necklace1_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Necklace 1</p>
+                        <button class="btn btn-info" onclick="NECKLACE('1')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/necklaces/necklace2_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Necklace 2</p>
+                        <button class="btn btn-info"  onclick="NECKLACE('2')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/necklaces/necklace3_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Necklace 3</p>
+                        <button class="btn btn-info"  onclick="NECKLACE('3')">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-bags" role="tabpanel" aria-labelledby="pills-bags-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/handbags/handbag1_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Handbag 1</p>
+                        <button class="btn btn-info" onclick="HANDBAG('1')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/handbags/handbag2_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Handbag 2</p>
+                        <button class="btn btn-info"  onclick="HANDBAG('2')">Thử đồ</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/handbags/handbag3_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Handbag 3</p>
+                        <button class="btn btn-info"  onclick="HANDBAG('3')">Thử đồ</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-hair" role="tabpanel" aria-labelledby="pills-hair-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/hairstyle/hairstyle1_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Hairstyle 1</p>
+                        <button class="btn btn-info" onclick="HAIRSTYLE('1')">Thử kiểu tóc</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/hairstyle/hairstyle2_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Hairstyle 2</p>
+                        <button class="btn btn-info"  onclick="HAIRSTYLE('2')">Thử kiểu tóc</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/hairstyle/hairstyle3_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Hairstyle 3</p>
+                        <button class="btn btn-info"  onclick="HAIRSTYLE('3')">Thử kiểu tóc</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-background" role="tabpanel" aria-labelledby="pills-background-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/background/background1_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Background 1</p>
+                        <button class="btn btn-info" onclick="BACKGROUND('1')">Thay nền</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/background/background2_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Background 2</p>
+                        <button class="btn btn-info"  onclick="BACKGROUND('2')">Thay nền</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/background/background3_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Background 3</p>
+                        <button class="btn btn-info"  onclick="BACKGROUND('3')">Thay nền</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/background/background4_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Background 4</p>
+                        <button class="btn btn-info"  onclick="BACKGROUND('4')">Thay nền</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/background/background5_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Background 5</p>
+                        <button class="btn btn-info"  onclick="BACKGROUND('5')">Thay nền</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/background/background6_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Background 6</p>
+                        <button class="btn btn-info"  onclick="BACKGROUND('6')">Thay nền</button>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="card">
+                        <img src="../assets/images/background/background7_show.jpg" alt="">
+                        <p class="text-center pt-2" class="description">Background 7</p>
+                        <button class="btn btn-info"  onclick="BACKGROUND('7')">Thay nền</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="contain mt-5">
+            <div class="body" id="body"></div>
+            <div class="topclothes" id="topclothes"></div>
+            <div class="botclothes" id="botclothes"></div>
+            <div class="shoes" id="shoes"></div>
+            <div class="necklace" id="necklace"></div>
+            <div class="handbag" id="handbag"></div>
+            <div class="hairstyle" id="hairstyle"></div>
+            <div class="background" id="background"></div>
+            <div class="model"></div>
+            <div class="bikinitop"></div>
+            <div class="bikinibottom"></div>
+           
+            <div class="feet"></div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./models/Topclothes.js"></script>
+    <script src="./models/BotClothes.js"></script>
+    <script src="./models/Shoes.js"></script>
+    <script src="./models/Necklace.js"></script>
+    <script src="./models/Bags.js"></script>
+    <script src="./models/Hairstyle.js"></script>
+    <script src="./models/Background.js"></script>
+    <script src="./controllers/index.js"></script>
+  </body>
+</html>
